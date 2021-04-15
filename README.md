@@ -2,6 +2,13 @@
 
 ### Problem:
 ```
+ class ListNode {
+     constructor(value = 0, next = null) {
+         this.value = value
+         this.next = next
+     }
+ }
+ 
 function countElements(head) {
   return -1
 }
