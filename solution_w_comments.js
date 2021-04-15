@@ -1,3 +1,10 @@
+ class ListNode {
+     constructor(value = 0, next = null) {
+         this.value = value
+         this.next = next
+     }
+ }
+
 function countElements(head) {
    if(!head) return 0
     
